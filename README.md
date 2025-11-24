@@ -76,7 +76,6 @@ docker-compose up -d --build
 ## 🤝 Contact
 
 - **Nickname:** Kai  
-- **Born:** 1997  
 - **Interests:** Web development, UI design, database optimization, software architecture  
 
 > 💡 Ideal for developers who want to test multiple Laravel apps locally, or build a simple multi-tenant system.
