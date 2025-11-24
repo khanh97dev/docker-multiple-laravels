@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+// This is a minimal placeholder script to satisfy the cron job discovery logic.
+// In a real Laravel application, this is the main command-line runner.
+
+echo "Simulated Artisan Command Runner\n";
+echo "Current App: web1.com\n";
+
+if ($argc > 1 && $argv[1] === 'schedule:run') {
+    echo "Running scheduled tasks...\n";
+    // In a real app, this would execute scheduled jobs.
+    exit(0);
+}
+
+// Minimal logic for demonstration
+if ($argc > 1 && $argv[1] === 'helloworld') {
+    echo "Hello World from simulated artisan command!\n";
+    exit(0);
+}
